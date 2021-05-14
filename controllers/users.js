@@ -7,6 +7,10 @@ const index = (req, res) => {
     res.render('users/index.ejs', {users: users});
 }
 
+const signup = (req, res) => {
+    res.render('users/signup.ejs')
+}
+
 
 
 
@@ -16,5 +20,6 @@ const index = (req, res) => {
 // Need this in everyone to export the above ----------
 
 module.exports = {
-    index
+    index,
+    signup
 }
