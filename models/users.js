@@ -8,3 +8,7 @@ const users = [
         uuid: 12345
     }
 ]
+
+// Have to export this below -------------------------
+
+module.exports = users;
