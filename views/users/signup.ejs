@@ -9,11 +9,11 @@
 <body>
     <h1>Sign Up</h1><br>
 
-    <form>
+    <form action="/users/signup" method="POST">
         
         <label for="name">Username:  </label><input type = "text" name ="username" id="username" placeholder ="username"/><br><br>
         <label for="email">Email:  </label><input type = "text" name ="email" id="email" placeholder ="email"/><br><br>
-        <label for="password">Password:  </label><input type = "text" name ="password" id="password" placeholder ="password"/><br><br>
+        <label for="password">Password:  </label><input type = "password" name ="password" id="password" placeholder ="password"/><br><br>
         <label for="aboutMe">About Me:  </label><input type = "text" name ="aboutMe" id="aboutMe" placeholder ="aboutMe"/><br><br>
         <label for="img">Image:  </label><input type = "text" name ="img" id="img" placeholder ="User Image"/><br><br>
         <input type="submit" name="" value="Sign Up" />
